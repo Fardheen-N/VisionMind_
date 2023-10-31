@@ -1,0 +1,16 @@
+{
+  "name": "visionmind-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client":"cd client && npm install --force && cd ..",
+    "install-server":"cd server && npm install && cd ..",
+    "install":"npm run install-client && npm run install-server",
+    "start-client": "cd client && npm run dev && cd ..",
+    "start-server": "cd server && npm run dev && cd .."
+  },
+  "keywords": [],
+  "author": "Bilal Ahmad",
+  "license": "ISC"
+}
